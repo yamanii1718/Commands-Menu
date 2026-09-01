@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "commandmenu",
+  "version": "${version}",
+  "name": "Command Menu",
+  "description": "A client-side command browser with search, pagination, subcommands, and chat completion.",
+  "icon": "assets/commandmenu/icon.png",
+  "authors": [
+    "Yamanii1718"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.commandmenu.CommandMenuClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
